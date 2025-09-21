@@ -1,0 +1,59 @@
+HTML Short Notes
+
+1. HTML Structure:
+- <!DOCTYPE html>: Defines HTML5 document type
+- <html>: Root element
+- <head>: Metadata (title, meta tags, links)
+- <body>: Visible page content
+
+2. Text & Headings:
+- Headings: <h1> to <h6> (largest to smallest)
+- Paragraph: <p>, Bold: <b> or <strong>, Italic: <i> or <em>
+
+3. Lists:
+- Ordered List: <ol><li></li></ol>
+- Unordered List: <ul><li></li></ul>
+- Description List: <dl><dt></dt><dd></dd></dl>
+
+4. Links & Navigation:
+- Hyperlink: <a href="url">text</a>
+- target="_blank" opens link in new tab
+- <nav> groups navigation links
+
+5. Images & Media:
+- Image: <img src="image.jpg" alt="description">
+- Audio: <audio controls><source src="file.mp3"></audio>
+- Video: <video controls><source src="file.mp4"></video>
+
+6. Tables:
+- Table Row: <tr>, Table Header: <th>, Table Data: <td>
+- Example: <table><tr><th>Name</th><th>Age</th></tr></table>
+
+7. Forms:
+- Form: <form action="url" method="post">
+- Input types: text, password, email, checkbox, radio, submit
+- Label connects to input via for and id attributes
+
+8. Semantic Tags (HTML5):
+- Structure tags: <header>, <footer>, <main>, <section>, <article>, <nav>, <aside>
+
+9. Attributes:
+- Provide extra info. Common: id, class, style, href, src, alt, title
+
+10. Div & Span:
+- <div>: Block container for grouping sections
+- <span>: Inline container for styling small parts of text
+
+11. Meta Tags:
+- <meta charset="UTF-8"> character encoding
+- <meta name="viewport" content="width=device-width, initial-scale=1.0"> responsive design
+- <meta name="description" content="..."> SEO
+
+12. Comments :-
+- <!-- comment --> ignored by browser
+
+13. other basics:
+- Use alt text for images
+- Proper heading order (h1 > h2 > h3)
+- Labels for form inputs
+- ARIA roles for screen readers
